@@ -16,9 +16,7 @@ export default class App extends Component {
       { id: 'id-4', name: 'Annie Copeland', number: '227-91-26' },
     ],
     filter: '',
-    // contacts: [],
-    // name: '',
-    // number: '',
+
   };
 
   addContact = ({ name, number }) => {
