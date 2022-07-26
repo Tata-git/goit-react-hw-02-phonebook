@@ -27,6 +27,10 @@ export class ContactsForm extends Component {
     this.reset();
   };
 
+  static propTypes = {
+  onSubmit: PropTypes.func.isRequired,
+};
+
   render() {
     const { name, number } = this.state;
 
@@ -70,6 +74,4 @@ export class ContactsForm extends Component {
   }
 }
 
-ContactsForm.propTypes = {
-  onSubmit: PropTypes.func.isRequired,
-};
+
